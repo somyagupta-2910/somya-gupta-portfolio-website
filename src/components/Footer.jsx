@@ -12,10 +12,15 @@ const Footer = () => {
             
             {/* Social Links */}
             <div className='flex items-center justify-center gap-4 mt-6'>
-                <a href='https://www.linkedin.com/in/somya-gupta-060356186/' className='text-richblack-5 hover:scale-150' target='_blank'><FaLinkedin></FaLinkedin></a>
-                <a href='https://github.com/somyagupta-2910' className='text-richblack-5 hover:scale-150'><FaGithub></FaGithub></a>
-                <a href='' className='text-richblack-5 hover:scale-150'><SiGmail></SiGmail></a>
+                <a href='https://www.linkedin.com/in/somya-gupta-060356186/' className='text-richblack-5 hover:scale-150' target='_blank' rel='noreferrer'><FaLinkedin></FaLinkedin></a>
+                <a href='https://github.com/somyagupta-2910' className='text-richblack-5 hover:scale-150' target='_blank' rel='noreferrer'><FaGithub></FaGithub></a>
+                
             </div>
+
+            <div className='flex items-center gap-1 text-richblack-5'>
+                  <SiGmail></SiGmail>
+                  <p>somyag00@gmail.com</p>
+                </div>
 
             {/* Copyright */}
             <div className='flex items-center justify-center gap-1'>

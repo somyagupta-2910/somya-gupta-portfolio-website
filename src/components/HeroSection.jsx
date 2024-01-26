@@ -15,19 +15,19 @@ const HeroSection = () => {
         setCurrentTextIndex((prevIndex) =>
             prevIndex === texts.length - 1 ? 0 : prevIndex + 1
         );
-        }, 2000); // Change text every 2 seconds
+        }, 1000); // Change text every 2 seconds
 
         return () => {
         // Clean up the interval when the component unmounts
         clearInterval(interval);
         };
-    }, []);
+    }, [texts.length]);
 
   return (
     // Hero Section Background Div
     <div id='hero' className='w-full h-screen z-100 relative'>
         {/* Background Image for the hero section on top of which rest of the content will be placed */}
-        <img className='w-full h-full absolute top-0 left-0 object-cover object-center z-[-1]' src={heroBg}></img>
+        <img className='w-full h-full absolute top-0 left-0 object-cover object-center z-[-1]' src={heroBg} alt='hero'></img>
 
         {/* Navbar */}
         <Navbar></Navbar>
@@ -48,7 +48,7 @@ const HeroSection = () => {
             {/* Right Image Section */}
             <div className='flex flex-col items-end lg:w-[50%]'>
                 <img 
-                className='w-36 md:w-72 h-36 md:h-72 rounded-full transition-all duration-200 hover:scale-110' src={UserImage}>
+                className='w-36 md:w-72 h-36 md:h-72 rounded-full transition-all duration-200 hover:scale-110' src={UserImage} alt='userImage'>
 
                 </img>
             </div>

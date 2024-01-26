@@ -56,7 +56,7 @@ const Projects = () => {
                 projects.map((project, index) => (
                     <div key={index} className='mx-auto flex flex-col w-[90%] h-[500px] border-2 rounded-xl relative z-100 transition-all duration-200 '>
                         {/* Background College Image */}
-                        <img className='w-full h-full -z-1 absolute object-cover object-center' src={project.imageUrl}></img>
+                        <img className='w-full h-full -z-1 absolute object-cover object-center' src={project.imageUrl} alt='projectBG'></img>
 
                         <div className='flex flex-col items-start justify-center gap-3 px-[1rem] lg:px-[6rem] relative text-white z-10 bg-custom-gradient bg-custom-shadow h-full'>
                                 <h1 className='absolute top-[-2rem] lg:top-[-3rem] right-[-2rem] lg:right-[-3rem] text-6xl lg:text-8xl text-[#e84949]'>{project.number}</h1>

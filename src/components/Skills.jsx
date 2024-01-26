@@ -5,7 +5,7 @@ import "swiper/css"
 import "swiper/css/free-mode"
 import "swiper/css/pagination"
 import 'swiper/css/navigation';
-import { Navigation, Autoplay}  from 'swiper/modules'
+import { Autoplay}  from 'swiper/modules'
 
 import ReactIcon from '../assets/Images/stack/React.png'
 import TailwindIcon from '../assets/Images/stack/Tailwind.png'
@@ -130,7 +130,7 @@ const Skills = () => {
                     skills.map((skill, index) => (
                         <SwiperSlide key={index}>
                             <div className='flex flex-col items-center justify-center gap-1 w-[8rem] h-[8rem] lg:w-[12rem] lg:h-[12rem] '>
-                                <img key={index} className='w-[60px] h-[60px] lg:w-[100px] lg:h-[100px] object-contain' src={skill.skillIcon}></img>
+                                <img key={index} className='w-[60px] h-[60px] lg:w-[100px] lg:h-[100px] object-contain' src={skill.skillIcon} alt='skillIcon'></img>
                                 <p className='text-center text-sm lg:text-lg'>{skill.skillName}</p>
                             </div>
                         </SwiperSlide>

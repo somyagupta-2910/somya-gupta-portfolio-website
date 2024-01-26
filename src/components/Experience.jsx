@@ -45,7 +45,7 @@ const Experience = () => {
                         <>
                             <div key={index} className='mx-auto flex flex-col w-full lg:w-[60%] h-[400px] border-2 rounded-xl relative z-100 transition-all duration-200 hover:scale-110'>
                                 {/* Background College Image */}
-                                <img className='w-full h-full -z-1 absolute object-cover' src={company.imageUrl}></img>
+                                <img className='w-full h-full -z-1 absolute object-cover' src={company.imageUrl} alt='companyBG'></img>
 
                                 {/* Main College Content Div */}
                                 <div className='flex flex-col items-start justify-center gap-3 py-8 px-4 relative text-white z-10 bg-opacity-50  bg-richblack-900 bg-custom-shadow h-full'>
