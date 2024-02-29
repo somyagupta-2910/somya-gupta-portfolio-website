@@ -15,14 +15,6 @@ const companies = [
     },
     {
         id: 2,
-        name: 'L&T Technology Services',
-        role: 'Intern',
-        year: 'May 2021 - Aug 2021',
-        imageUrl: fyiBg,
-        description: ['Built a day-scheduling application using Python', 'Learnt about C and Python languages']
-    },
-    {
-        id: 3,
         name: 'FYI Health',
         role: 'Product Developer Intern',
         year: 'May 2020 - Jul 2020',

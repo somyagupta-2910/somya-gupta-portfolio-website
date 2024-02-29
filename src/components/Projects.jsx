@@ -5,6 +5,7 @@ import rakshakImage from '../assets/Images/projects/Rakshak.png'
 import healthpostImage from '../assets/Images/projects/healthpost.png'
 import nycCrimeImage from '../assets/Images/projects/nycCrimeAnalysis.jpg'
 import tailorFitImage from '../assets/Images/projects/tailorFitApp.jpg'
+import foodClassifierImage from '../assets/Images/projects/Food-classifier.jpg'
 
 const projects = [
     {
@@ -29,14 +30,21 @@ const projects = [
       imageUrl: rakshakImage,
     },
     {
-        number: '04',
+      number: '04',
+      name: 'Food Classifier',
+      description: 'Developed an advanced food classifier model with transfer learning, boosting accuracy by 10% to 86%, significantly surpassing previous models in a course project.',
+      link: 'https://github.com/somyagupta-2910/food-classifier-project-with-transfer-learning',
+      imageUrl: foodClassifierImage,
+    },
+    {
+        number: '05',
         name: 'Pandemic Drone with Thermal Imaging and Crowd Monitoring System (DRISHYA)',
         description: 'Developed a drone consisting of a thermal camera that can identify people with a fever-like temperature as a safety measure against COVID-19.',
         link: 'https://link.springer.com/chapter/10.1007/978-981-15-7504-4_19',
         imageUrl: drishyaImage,
     },
     {
-      number: '05',
+      number: '06',
       name: 'FYI Healthpost',
       description: 'Designed “FYI Health Post,” an automated temperature sensing, mask detection, and hand sanitizing system using Python and OpenCV to facilitate safety measures against COVID-19.',
       link: 'https://www.instagram.com/fyi_health/?hl=en',

@@ -42,7 +42,7 @@ const HeroSection = () => {
                             I am a <span className="text-[#4e45d5] font-semibold block lg:inline">{texts[currentTextIndex]}</span>
                         </div>
                 <p className='text-md md:text-lg lg:text-xl text-center lg:text-left text-richblack-5'>I’m currently pursuing my Master's in Computer Science at New York University and here is my portfolio website. Here you’ll learn about my journey as a CS enthusiast.</p>
-                <Button text={'Resume'} linkto={'https://drive.google.com/file/d/1PAkyPUeTM4L80Gr9ekfGPl6KEFxlP_SB/view?usp=drive_link'}></Button>
+                <Button text={'Resume'} linkto={'https://drive.google.com/file/d/126_oD-AITiz5Z-2qa7vL7mHyOBp-nOVA/view?usp=sharing'}></Button>
             </div>
             
             {/* Right Image Section */}
